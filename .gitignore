@@ -1,0 +1,23 @@
+# Data / model artifacts (too large for the repo)
+*.zip
+*.h5
+*.keras
+*.pb
+*.pt
+*.pth
+saved_model/
+data/
+datasets/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

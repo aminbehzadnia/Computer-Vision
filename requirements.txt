@@ -1,0 +1,12 @@
+# MRI segmentation (PyTorch notebook)
+torch>=2.1
+numpy
+matplotlib
+pillow
+pycocotools
+
+# Original Keras notebooks
+tensorflow
+tensorflow-addons
+scikit-learn
+seaborn

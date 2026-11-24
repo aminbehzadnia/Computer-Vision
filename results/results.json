@@ -1,0 +1,36 @@
+{
+  "test": {
+    "n_images": 215,
+    "n_with_tumour": 215,
+    "dice_per_image_mean": 0.7629,
+    "dice_per_image_median": 0.8418,
+    "iou_per_image_mean": 0.6524,
+    "sensitivity_per_image_mean": 0.8766,
+    "precision_per_image_mean": 0.7331,
+    "dice_pooled": 0.7664,
+    "sensitivity_pooled": 0.8213,
+    "precision_pooled": 0.7184,
+    "missed_tumour_rate": 0.0186
+  },
+  "test_mc_dropout": {
+    "dice_per_image_mean": 0.7637,
+    "dice_per_image_median": 0.8427,
+    "dice_pooled": 0.7671,
+    "sensitivity_pooled": 0.8158,
+    "precision_pooled": 0.7238
+  },
+  "uncertainty_vs_dice_spearman": -0.663,
+  "uncertainty_size_check": {
+    "spearman_uncertainty_vs_tumour_size": 0.025,
+    "spearman_dice_vs_tumour_size": 0.198,
+    "partial_spearman_uncertainty_vs_dice_given_size": -0.682,
+    "spearman_large_tumours": -0.703,
+    "spearman_small_tumours": -0.639
+  },
+  "risk_coverage_mean_dice": {
+    "0.1": 0.9076, "0.2": 0.8830, "0.3": 0.8610, "0.4": 0.8571, "0.5": 0.8587,
+    "0.6": 0.8472, "0.7": 0.8282, "0.8": 0.8129, "0.9": 0.7941, "1.0": 0.7637
+  },
+  "config": {"img_size": 256, "batch_size": 16, "lr": 0.0001, "epochs_run": 49, "best_epoch": 39,
+             "base_filters": 32, "mc_samples": 20, "threshold": 0.5, "seed": 42, "gpu": "Colab T4"}
+}
